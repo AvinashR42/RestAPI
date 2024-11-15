@@ -19,7 +19,9 @@ public class Demo1_GETrequest {
 		.then()
 		  .statusCode(200)
 		  .statusLine("HTTP/1.1 200 OK")
-		  .header("x-frame-options", "DENY");
+		  .header("x-frame-options", "DENY")
+		  .header("Content-Type", "text/html; charset=utf-8");
+		  
 		  
 	}
 
