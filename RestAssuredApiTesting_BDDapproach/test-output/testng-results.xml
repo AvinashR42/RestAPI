@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-14T15:14:25 IST" name="Default suite" finished-at="2024-11-14T15:14:30 IST" duration-ms="4477">
+  <suite started-at="2024-11-27T12:02:33 IST" name="Default suite" finished-at="2024-11-27T12:02:38 IST" duration-ms="4410">
     <groups>
     </groups>
-    <test started-at="2024-11-14T15:14:25 IST" name="Default test" finished-at="2024-11-14T15:14:30 IST" duration-ms="4477">
-      <class name="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo1_GETrequest">
-        <test-method signature="getWeatherData()[pri:0, instance:RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo1_GETrequest@483f6d77]" started-at="2024-11-14T15:14:25 IST" name="getWeatherData" finished-at="2024-11-14T15:14:30 IST" duration-ms="4422" status="PASS">
+    <test started-at="2024-11-27T12:02:33 IST" name="Default test" finished-at="2024-11-27T12:02:38 IST" duration-ms="4410">
+      <class name="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo2_PostRequest">
+        <test-method signature="GetRequest_Headers()[pri:0, instance:RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo2_PostRequest@6d4e5011]" started-at="2024-11-27T12:02:33 IST" name="GetRequest_Headers" finished-at="2024-11-27T12:02:38 IST" duration-ms="4365" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getWeatherData -->
-      </class> <!-- RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo1_GETrequest -->
+        </test-method> <!-- GetRequest_Headers -->
+      </class> <!-- RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo2_PostRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
