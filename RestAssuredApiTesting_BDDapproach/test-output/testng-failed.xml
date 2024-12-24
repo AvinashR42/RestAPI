@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo1_GETrequest">
+      <class name="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request">
         <methods>
-          <include name="getWeatherData"/>
+          <include name="deleteRequest"/>
         </methods>
-      </class> <!-- RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo1_GETrequest -->
+      </class> <!-- RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
