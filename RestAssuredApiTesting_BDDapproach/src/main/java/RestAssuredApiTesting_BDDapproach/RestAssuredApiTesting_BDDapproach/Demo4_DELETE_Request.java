@@ -1,5 +1,6 @@
 package RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
@@ -24,6 +25,9 @@ public class Demo4_DELETE_Request {
 		    .statusCode(200)
 		    .log().all()
 		    .extract().response();
+	  
+	  String jsonAsString = response.asString();
+	  Assert.assertEquals(jsonAsString.contains("successfully! deleted record"),true);
 		
 		
 		
