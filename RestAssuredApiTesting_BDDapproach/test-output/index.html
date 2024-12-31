@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\avina\AppData\Local\Temp\testng-eclipse-149214346\testng-customsuite.xml</span>
+                    <span>C:\Users\avina\AppData\Local\Temp\testng-eclipse--433466920\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request" class="method navigator-link" hash-for-method="deleteRequest">deleteRequest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest" class="method navigator-link" hash-for-method="verifyingMultipleContent">verifyingMultipleContent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,16 +122,18 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request</span>
+              <span class="class-name">RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteRequest">
-                  </a> <!-- deleteRequest -->
-                  <span class="method-name">deleteRequest</span>
+                  <a name="verifyingMultipleContent">
+                  </a> <!-- verifyingMultipleContent -->
+                  <span class="method-name">verifyingMultipleContent</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;409&gt;.
+XML path RestResponse.result.name doesn&apos;t match.
+Expected: (a collection containing &quot;India&quot; and a collection containing &quot;Australia&quot;)
+  Actual: &lt;&gt;
 
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -160,14 +162,14 @@ Expected status code &lt;200&gt; but was &lt;409&gt;.
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request.deleteRequest(Demo4_DELETE_Request.java:24)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest.verifyingMultipleContent(Demo5_APICompTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -205,7 +207,7 @@ Expected status code &lt;200&gt; but was &lt;409&gt;.
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\avina\AppData\Local\Temp\testng-eclipse-149214346\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\avina\AppData\Local\Temp\testng-eclipse--433466920\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -214,7 +216,7 @@ Expected status code &lt;200&gt; but was &lt;409&gt;.
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request&quot;/&gt;
+      &lt;class name=&quot;RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -256,14 +258,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'deleteRequest')
-data.setCell(0, 2, 'RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request')
-data.setCell(0, 3, 2646);
+data.setCell(0, 1, 'verifyingMultipleContent')
+data.setCell(0, 2, 'RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest')
+data.setCell(0, 3, 4029);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -278,9 +280,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyingTestStatusCode</span>
+                <br/>
+                <span class="ignored-method-name">verifyingSingleContent</span>
+                <br/>
+                <span class="ignored-method-name">testLogging</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -289,11 +302,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">deleteRequest</span>
+                <span class="method-name">verifyingMultipleContent</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

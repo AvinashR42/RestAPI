@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request">
+      <class name="RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest">
         <methods>
-          <include name="deleteRequest"/>
+          <include name="verifyingMultipleContent"/>
         </methods>
-      </class> <!-- RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo4_DELETE_Request -->
+      </class> <!-- RestAssuredApiTesting_BDDapproach.RestAssuredApiTesting_BDDapproach.Demo5_APICompTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
